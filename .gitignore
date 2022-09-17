@@ -4,7 +4,6 @@
 
 # You can whitelist files/folders with !, these will not be ignored.
 !*.yaml
-!.gitignore
 !*.md
 #!*.sh
 #!*.js*
@@ -14,11 +13,7 @@ secrets.yaml
 
 # Allow Node-RED flows.
 !node-red/
+!includes/
+!themes/
 
-# Ignore these files/folders
-.storage
-.cloud
-.google.token 
-home-assistant.log
-home-assistant_v2
 
