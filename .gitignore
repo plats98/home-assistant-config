@@ -2,6 +2,7 @@
 # An * ensures that everything will be ignored.
 *
 
+
 # You can whitelist files/folders with !, these will not be ignored.
 !*.yaml
 !*.md
@@ -13,7 +14,10 @@ secrets.yaml
 
 # Allow Node-RED flows.
 !node-red/
-#!includes/
-#!themes/
+
+!includes/
+!includes/*
+
+!themes/
 
 
