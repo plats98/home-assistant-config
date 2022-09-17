@@ -12,8 +12,8 @@
 secrets.yaml
 
 # Allow Node-RED flows.
-!node-red
-!includes
-!themes
+!node-red/*
+!includes/*
+!themes/*
 
 
