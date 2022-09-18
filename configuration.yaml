@@ -10,6 +10,9 @@ frontend:
 tts:
   - platform: google_translate
 
+aula:
+  username: !secret aula_user
+  password: !secret aula_pass
 
 # Include dirs
 zone: !include_dir_merge_list includes/zone
